@@ -7,7 +7,6 @@ If the confidence is low or the intent is unknown, it falls back to
 a local Ollama instance running LLaMA 3.
 """
 
-import requests
 import json
 import pickle
 import random
