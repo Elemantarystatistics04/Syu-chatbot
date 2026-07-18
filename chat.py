@@ -12,6 +12,9 @@ import pickle
 import random
 import numpy as np
 import nltk
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('wordnet', quiet=True)
 from nltk.stem import WordNetLemmatizer
 import os
 
