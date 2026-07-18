@@ -1,0 +1,196 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening",
+        "What's up", "Howdy", "Greetings", "Hi there", "Hello there", "Hey there"
+      ],
+      "responses": [
+        "Hello! I'm SYU, your personal AI assistant. How can I help you today?",
+        "Hey there! Ready to help you tackle your day!",
+        "Hi! Great to see you. What's on your mind?",
+        "Greetings! I'm here and ready to assist you."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Bye", "Goodbye", "See you", "See you later", "Later", "Good night",
+        "I'm done", "That's all", "Quit", "Exit", "Talk later"
+      ],
+      "responses": [
+        "Goodbye! Have a productive day!",
+        "See you later! Stay focused and keep going!",
+        "Bye! Remember to take breaks and stay hydrated!",
+        "Take care! Come back anytime you need help."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks a lot",
+        "Much appreciated", "Cheers", "Thank you so much", "Great, thanks"
+      ],
+      "responses": [
+        "You're welcome! Anything else I can help with?",
+        "Happy to help! Let me know if you need more.",
+        "Of course! That's what I'm here for.",
+        "Anytime! Feel free to ask me anything."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name", "Who are you", "What should I call you",
+        "What's your name", "Tell me your name", "Introduce yourself",
+        "Who made you", "What are you"
+      ],
+      "responses": [
+        "I'm SYU — your personal AI agent built with Machine Learning!",
+        "My name is SYU. I was trained to help you with your daily tasks and questions.",
+        "I'm SYU, an ML-powered chatbot designed to assist you every day!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help", "What can you do", "How can you help me", "What do you know",
+        "What are your features", "Show me what you can do", "Assist me",
+        "I need help", "What are your capabilities"
+      ],
+      "responses": [
+        "I can help you with: motivational tips, productivity advice, task planning, answering general questions, jokes, and daily check-ins. Just ask!",
+        "Here's what I can do: give you motivation, help you plan your day, share productivity tips, tell jokes, and have a friendly conversation!",
+        "I'm your daily AI assistant! Ask me for advice, tips, motivation, or just a quick chat."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "Motivate me", "I need motivation", "Give me motivation", "I feel lazy",
+        "I don't want to work", "Inspire me", "I'm feeling down", "Cheer me up",
+        "I need encouragement", "Help me feel better", "I'm stuck"
+      ],
+      "responses": [
+        "You've got this! Every big achievement starts with the decision to try. Take the first step right now!",
+        "Remember: progress, not perfection. Even 1% better every day leads to extraordinary results over time!",
+        "Discipline is choosing between what you want now and what you want most. You have the power to choose!",
+        "The only bad workout is the one that didn't happen. The only bad work session is the one you skipped. Let's go!",
+        "You are capable of more than you think. Start small, stay consistent, and watch the magic happen."
+      ]
+    },
+    {
+      "tag": "productivity",
+      "patterns": [
+        "How to be productive", "Tips for productivity", "I can't focus",
+        "Help me focus", "Productivity advice", "How to stay focused",
+        "I keep getting distracted", "Best way to get things done",
+        "Time management tips", "How to manage my time"
+      ],
+      "responses": [
+        "Try the Pomodoro Technique: work for 25 minutes, then take a 5-minute break. Repeat 4 times, then take a longer break!",
+        "Tip: Write down your top 3 Most Important Tasks (MITs) each morning and focus on those first.",
+        "Remove distractions: put your phone in another room, use website blockers, and set a timer for deep work sessions.",
+        "Start with the hardest task first thing in the morning — this is called 'Eating the Frog'. The rest of the day feels easy after!",
+        "Plan tomorrow the night before. Spend 5 minutes each evening reviewing what you did and writing tomorrow's to-do list."
+      ]
+    },
+    {
+      "tag": "planning",
+      "patterns": [
+        "Help me plan my day", "Plan my day", "What should I do today",
+        "How to plan", "Daily schedule", "Morning routine", "Create a schedule",
+        "Help me organize", "What's a good routine"
+      ],
+      "responses": [
+        "Here's a simple daily structure: Morning — review goals & exercise. Midday — deep work sessions. Afternoon — meetings & emails. Evening — review progress & plan tomorrow.",
+        "A great morning routine: 1) Wake up early, 2) Hydrate, 3) Exercise for 20min, 4) Write 3 priorities, 5) Start your most important task!",
+        "Try time-blocking: assign specific tasks to specific time slots in your calendar. This reduces decision fatigue and keeps you on track."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke", "Make me laugh", "Say something funny",
+        "Joke please", "Give me a joke", "I want to laugh", "Be funny"
+      ],
+      "responses": [
+        "Why do programmers prefer dark mode? Because light attracts bugs! 😄",
+        "Why did the AI go to school? Because it wanted to improve its learning rate! 🤖",
+        "What do you call a lazy kangaroo? A pouch potato! 🦘",
+        "Why don't scientists trust atoms? Because they make up everything! ⚗️",
+        "I told my computer I needed a break... now it won't stop sending me Kit-Kat ads. 😂"
+      ]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": [
+        "How are you", "How are you doing", "How's it going", "Are you okay",
+        "How do you feel", "What's up with you", "You good"
+      ],
+      "responses": [
+        "I'm running at 100% efficiency and ready to help you! How about you?",
+        "I'm doing great, thanks for asking! Ready to tackle the day. How are you?",
+        "All systems are optimal! I'm here and focused on helping you. What do you need?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather", "How's the weather today", "Will it rain",
+        "Is it hot today", "Weather forecast", "What's the temperature"
+      ],
+      "responses": [
+        "I'm not connected to live weather data yet, but you can check weather.com or Google 'weather [your city]' for the latest forecast!",
+        "I don't have access to real-time weather, but your phone's weather app or a quick Google search will give you the latest update!"
+      ]
+    },
+    {
+      "tag": "time",
+      "patterns": [
+        "What time is it", "Tell me the time", "Current time", "What's the time now"
+      ],
+      "responses": [
+        "I don't have access to real-time clock data, but you can check the clock on your device! It should be right on your taskbar.",
+        "Check your device's clock for the exact time — I don't have access to real-time data!"
+      ]
+    },
+    {
+      "tag": "study",
+      "patterns": [
+        "Help me study", "Study tips", "How to study better", "I have an exam",
+        "Study advice", "How to memorize", "Best study techniques", "I can't study"
+      ],
+      "responses": [
+        "Top study tip: Use active recall — instead of re-reading, close the book and write down everything you remember. This boosts retention dramatically!",
+        "Try the Feynman Technique: explain the concept you're studying as if you're teaching it to a 5-year-old. If you can't, you need to study that part more.",
+        "Spaced repetition is key! Study material, then review it after 1 day, 3 days, 1 week, and 1 month. This locks it into long-term memory.",
+        "Study in chunks of 25-45 minutes with short breaks. Avoid studying for hours straight — your brain needs rest to consolidate memories."
+      ]
+    },
+    {
+      "tag": "health",
+      "patterns": [
+        "Health tips", "How to be healthy", "I should exercise", "Fitness advice",
+        "I want to get fit", "How to lose weight", "Healthy habits", "Sleep tips",
+        "I can't sleep", "How to sleep better"
+      ],
+      "responses": [
+        "The three pillars of health: quality sleep (7-8 hours), regular movement (30+ min daily), and whole foods. Start with one!",
+        "For better sleep: keep a consistent wake time every day, avoid screens 1 hour before bed, and keep your room cool and dark.",
+        "Even a 30-minute walk daily can dramatically improve your energy, mood, and focus. Small consistent steps win!",
+        "Stay hydrated! Drink at least 8 glasses of water a day. Dehydration causes fatigue, poor focus, and headaches."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand that yet. Could you rephrase it?",
+        "Hmm, I'm still learning! Try asking me about productivity, motivation, planning, or just say hello!",
+        "I didn't quite get that. I'm best at helping with daily tasks, motivation, and productivity tips. Ask me something!"
+      ]
+    }
+  ]
+}
