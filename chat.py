@@ -87,7 +87,7 @@ def get_llama_response(messages):
     
     try:
         completion = groq_client.chat.completions.create(
-            model="llama3-8b-8192",
+            model="llama-3.1-8b-instant",
             messages=[system_prompt] + messages,
             temperature=0.7,
             max_tokens=1024,
