@@ -2,6 +2,6 @@ Flask==3.0.0
 scikit-learn
 nltk==3.8.1
 numpy
-groq==0.11.0
+groq
 gunicorn==21.2.0
 python-dotenv==1.0.1
